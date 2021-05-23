@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+"""
 CODES = {
     "AAL": "Aalborg, Denmark",
     "ANX": "Andenes, Norway",
@@ -17,4 +18,5 @@ def cities(request, code):
     return render(request, template_name='citypage.html', context=ctx)
 
 def home(request):
-    return render(request, template_name='home.html', context={})
+    return render(request, template_name='home.html', context={}
+"""

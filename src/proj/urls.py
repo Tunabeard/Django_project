@@ -16,10 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from cities import views as cities_views
+from spravochniki import views as spravochniki_views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
-    path('', cities_views.home),
-    path('<code>/', cities_views.cities),
+    path('admin/', admin.site.urls),
+    # path('', spravochniki_views.home),
 ]
